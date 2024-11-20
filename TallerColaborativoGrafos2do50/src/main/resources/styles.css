@@ -1,0 +1,50 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #f4f4f4; /* Fondo general */
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #4CAF50, #388E3C);
+    -fx-text-fill: white;
+    -fx-padding: 10px 15px;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 2);
+}
+
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-control-inner-background: #ecf0f1;
+}
+
+.hbox {
+    -fx-spacing: 15px;
+}
+
+.vbox {
+    -fx-spacing: 10px;
+}
